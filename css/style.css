@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header*/
+
+header{
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    height: 88px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 16px;
+}
+
+.headerTop{
+    width: 100%;
+    max-width: 1140px;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo{
+    height: 17px;
+    width: 103px;
+    background-image: url('../image/logo.png');
+}
+
+.headerTop nav ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.headerTop li a{
+    font-size: 14px;
+    color: rgba(255,255,255,.5);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.headerTop .active{
+    color: #fff;
+    border-bottom: 2px solid rgba(255,255,255,.7);
+    padding: 8px 0;
+    margin: 0 16px;
+}
+
+.headerTop .active:hover{
+    color: #fff;
+}
+
+.headerTop li a:hover{
+    color: rgba(255,255,255,.8);
+}
+
+.headerTop .menuBtn a{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0 0 0 16px;
+    padding: 10px 22px;
+}
+
+.headerTop .menuBtn a:hover{
+    background-color: #fff;
+    color: rgba(250, 0, 118, 0.8);
+}
+
+/*Banner*/
+.banner{
+    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    padding: 100px 0 0;
+    text-align: center;
+    color: #fff;
+
+}
+
+.bannerTitulo h1{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.bannerTitulo p{
+    color: #ffb8f6;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.bannerImg{
+    height: 0;
+    padding-bottom: 33%;
+    overflow: hidden;
+}
+
+/*Imagem dos Clientes*/
+.imgClients{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.imgClient{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/*Highlights*/
+.highlights{
+    padding: 80px;
+    background-color: #faf6fb;
+}
+
+.highlightsContainer{
+    max-width: 1140px;
+}
+
+.highlightsTitulo{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin: 0 0 48px;
+}
+
+.highlightsTitulo small{
+    color: #998a9b;
+    font-size: 80%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.highlightsTitulo h3{
+    font-size: 33px;
+    color: #633991;
+    font-weight: 500;
+}
+
+.highlightsRow{
+    display: flex;
+}
+
+.highlightsContainer{
+    max-width: 1140px;
+    width: 100%;
+    height: 139px;
+    margin: auto;
+}
+
+.highlightsRowCard{
+    background-color: #fff;
+    position: relative;
+    padding: 1rem;
+    margin-right: 15px;
+}
+
+.highlightsRowCardBar{
+    width: 3px;
+    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.highlightsRowCardBody{
+    display: flex;
+    align-items: flex-start;
+}
+
+.highlightsRowCardBody i{
+    font-size: 3rem;
+    color: #9477b4;
+    margin-right: 15px;
+}
+
+.highlightsRowCardBodyInfo{
+    flex: 1;
+}
+
+.highlightsRowCardBodyInfo h4{
+    color: #633991;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.highlightsRowCardBodyInfo p{
+    color: #959094;
+    font-size: 14px;
+}
+
+/*Discover*/
+.discover{
+    padding: 80px;
+}
+
+.discoverContainer{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.discoverTittle{
+    margin-left: 50%;
+}
+
+.discoverTittle i{
+    font-size: 3rem;
+    color: #9477b4;
+    margin-bottom: 25px;
+}
+
+.discoverTittle h2{
+    font-size: 45px;
+    font-weight: 300;
+    color: #633991;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+
+.discoverTittle p{
+    margin-bottom: 1.5rem;
+    color: #959094;
+}
+
+.discoverBtn{
+    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0 9px 32px 0 rgb(0 0 0 /20%);
+}
+
+.discoverBtn:hover{
+    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
+}
+
+.discoverImg{
+    margin-top: -130px;
+}
+
+/*Features*/
+
+.features{
+    padding: 80px;
+    background-color: #faf6fb;
+}
+
+.featuresContainer{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.featuresTittle{
+    text-align: center;
+}
+
+.featuresTittle small{
+    font-size: 80%;
+    font-weight: 400;
+    color: #998a9b;
+    text-transform: uppercase;
+}
+
+.featuresTittle h1{
+    color: #633991;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.featuresMenu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.featuresMenu li{
+    text-align: center;
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #f5eff7;
+    margin-right: 2px;
+}
+
+.featuresMenu li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #b5a4c8;
+    padding: 1.5rem;
+    background-color: #f5eff7;
+}
+
+.featuresMenu .btnActive{
+    background-color: #fff;
+}
