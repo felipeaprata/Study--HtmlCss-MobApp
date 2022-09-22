@@ -119,6 +119,7 @@ header{
 
 /*Highlights*/
 .highlights{
+    height: 410px;
     padding: 80px;
     background-color: #faf6fb;
 }
@@ -305,6 +306,38 @@ header{
     background-color: #f5eff7;
 }
 
-.featuresMenu .btnActive{
+.featuresMenu .btnActive,
+.featuresMenu .btnActive a{
+    background-color: rgb(255, 255, 255);
+}
+
+.featuresInfo{
+    height: 488px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+    gap: 50px;
+}
+
+.featuresInfoText h2{
+    font-size: 45px;
+    font-weight: 300;
+    color: #633991;
+    letter-spacing: -1px;
+    margin-bottom: 0.5rem;
+}
+
+.featuresInfoText h5{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #e38cb7;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.featuresInfoText p{
+    color: #959094;
+    line-height: 1.8;
+    margin-bottom: 1rem;
 }
